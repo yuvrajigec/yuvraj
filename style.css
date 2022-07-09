@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin-bottom: 0px;
+    padding: 0%;
+    background: url(cup.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    box-sizing: border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    font-family: sans-serif;
+    color:  #fff;
+    font-size: 20px;
+
+}
+.menu-bar {
+    margin: 0px;
+    background-color: green;
+    text-align: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    
+}
+.menu-bar ul li{
+    margin: 15px;
+    padding: 15px;
+    width: 199px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    
+    background-color: #2bab0d;
+    border-radius: 10px;
+}
+.menu-bar .fa{
+    margin: 12px;
+    padding: 0;
+    border: 3px;
+}
+.sub-menu-1{
+    display: none;
+    padding: 0px;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    margin: 10px;
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: greenyellow;
+}
+.sub-menu-2{
+    display: none;
+    padding: 0px;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background:rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul{
+    margin: 10px;
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover{
+    color: greenyellow;
+}
